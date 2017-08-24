@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ftkj.rxbus_test.FormActivity">
+    <EditText
+        android:id="@+id/et_username"
+        android:hint="用户名"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:background="@drawable/ed_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_password"
+        android:textSize="30sp"
+        android:hint="密码"
+        android:padding="5dp"
+        android:background="@drawable/ed_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button2_sel"
+        android:text="提交"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

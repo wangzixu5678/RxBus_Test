@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ftkj.rxbus_test.RxbingActivity">
+    <Button
+        android:id="@+id/btn_getcode"
+        android:text="获取验证码"
+        android:background="@drawable/button_bg"
+        android:layout_width="100dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:lines="1"
+        android:maxLines="1"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="btnConcatTest"
+        android:textAllCaps="false"
+        android:text="Concat测试"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="btnConcatConbinelatest"
+        android:textAllCaps="false"
+        android:text="Conbinelatest测试"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:onClick="btnFormCommitTest"
+        android:text="Conbinelatest表单提交测试"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="btnFlatMapTest"
+        android:textAllCaps="false"
+        android:text="FlatMap测试"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
